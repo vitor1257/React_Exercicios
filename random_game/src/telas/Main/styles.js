@@ -1,0 +1,26 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    padding: 17,
+  },
+  titulo: {
+    fontSize: 24,
+    marginBottom: 20,
+    textAlign: 'center',
+    fontWeight: 'bold',
+  },
+  resultado: {
+    marginTop: 20,
+    fontSize: 18,
+    textAlign: 'center',
+  },
+  texto: {
+    fontWeight: 'bold',
+    marginBottom: 10,
+    textAlign: 'center',
+    fontSize: 17,
+  },
+});
